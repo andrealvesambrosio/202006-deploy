@@ -3,7 +3,7 @@
 #* @param msg A mensagem para escrever
 #* @get /echo
 function(msg = "") {
-  paste0("A mensagem é: '", msg, "'")
+  paste0("Sua mensagem é: '", msg, "'")
 }
 
 #* Retorna a soma de dois números
